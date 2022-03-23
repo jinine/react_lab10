@@ -1,6 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const linkStyle = {
+  margin: "1rem",
+  textDecoration: "none",
+  color: 'blue'
+};
+
 const NavBar = () => (
   <>
     <nav className="navbar navbar-expand-md bg-light navbar-light">
@@ -16,7 +22,7 @@ const NavBar = () => (
               <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <Link to="/Privacy">Privacy</Link>
+              <Link to="/Privacy" style={linkStyle}>Privacy</Link>
             </li>
           </ul>
         
