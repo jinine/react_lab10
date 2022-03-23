@@ -12,7 +12,7 @@ const Footer = () => (
   <>
    <footer b-617jbvk8u3="" class="border-top footer text-muted" style = {footer.footer}>
         <div b-617jbvk8u3="" class="container">
-            © 2022 - FizzBuzzWeb - <a href="/Privacy">Privacy</a>
+            © 2022 - FizzBuzzWeb - <Link to="/Privacy">Privacy</Link>
         </div>
     </footer>
   </>
