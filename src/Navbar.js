@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const linkStyle = {
+const navStyle={
+  header:{
   margin: "1rem",
   textDecoration: "none",
-  color: 'blue'
-};
+  color: 'black'
+  }
+}
 
 const NavBar = () => (
   <>
@@ -22,7 +24,8 @@ const NavBar = () => (
               <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <Link to="/Privacy" style={linkStyle}>Privacy</Link>
+              <a class="nav-link" href="/Privacy">Privacy</a>
+              <Link to="/Privacy" style={navStlye.header}>Privacy</Link>
             </li>
           </ul>
         
