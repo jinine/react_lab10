@@ -24,7 +24,7 @@ const NavBar = () => (
               <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <Link to="/Privacy" style={navStyle.header}>Privacy</Link>
+              <a class="Privacy" href="/">Privacy</a>
             </li>
           </ul>
         
